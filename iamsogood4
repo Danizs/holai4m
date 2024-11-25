@@ -3526,14 +3526,14 @@ function Library:CreateWindow(...)
                 local State = InputService.MouseIconEnabled;
 
                 local Cursor = Drawing.new('Triangle');
-                Cursor.Thickness = 1;
-                Cursor.Filled = true;
+                Cursor.Thickness = 3;
+                Cursor.Filled = false;
                 Cursor.Visible = false;
 
                 local CursorOutline = Drawing.new('Triangle');
                 CursorOutline.Thickness = 1;
                 CursorOutline.Filled = false;
-                CursorOutline.Color = Color3.new(1, 0, 0);
+                CursorOutline.Color = Color3.new(176, 224, 230);
                 CursorOutline.Visible = true;
 
                 while Toggled and ScreenGui.Parent do
